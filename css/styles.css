@@ -1,1 +1,32 @@
 /* Your Styling */
+header {background: red;}
+
+/*Article Headings*/
+article section {
+	position: relative;
+}
+
+article section p {
+	margin-top: 4em;
+}
+
+article h3 {
+	text-transform: uppercase;
+	text-shadow: 3px 3px 10px #fff;
+	background: #000;
+	padding: 4px;
+	position: absolute;
+	left: -20px;
+	top: 0
+}
+article section:nth-child(1) {background: orange;}
+
+article section:nth-child(2) {background: yellow;}
+
+article section:nth-child(3) {background: green;}
+
+article section:nth-child(4) {background: blue}
+
+footer section:nth-child(1) {background: indigo;}
+
+footer section:nth-child(2) {background: violet;}
